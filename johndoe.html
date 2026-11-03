@@ -10,7 +10,7 @@
     <header class="flex container maxw">
       <div class="logo">
         <a href="https://en.wikipedia.org/wiki/John_Doe"
-          ><img src="assets/img/J..png" alt="logo"
+          ><img src="assets/img/Frame 5.svg" alt="logo"
         /></a>
       </div>
       <nav class="links">
@@ -32,7 +32,7 @@
         </div>
 
         <div class="hero-right">
-          <img src="assets/img/hero_img 1 (3).png" alt="John Doe" />
+          <img src="assets/img/hero_img 1 (1).png" alt="John Doe" />
         </div>
       </div>
     </section>
@@ -40,6 +40,7 @@
       <div class="maxw flex">
         <div class="am-title">
           <h2>About Me</h2>
+          <span class="yellowrec prvi"></span>
         </div>
         <div class="am-text">
           <p>
@@ -61,17 +62,19 @@
     </section>
     <section class="services">
       <div class="maxw container">
-        <div class="title-text">
-          <h2>Services</h2>
+        <div>
+          <h2 class="title-text">Services</h2>
+          <span class="drugi"></span>
           <p class="sr-intro">
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
             officia deserunt mollit anim id est laborum. Sed ut perspiciatis
             unde omnis iste natur
           </p>
         </div>
-        <div class="rectangles">
+        <div class="rectangles flex">
+          <div class="rectangles-left">
           <div class="rectangle blue">
-            <img src="assets/img/phone_icon 1 (1).webp" alt="" />
+            <div><img src="assets/img/phone_icon 1 (1).png" alt="" class="ikonica"/></div>
             <h3>UX Research</h3>
             <p>
               Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -79,15 +82,16 @@
             </p>
           </div>
           <div class="rectangle purple">
-            <img src="assets/img/phone_icon 1 (1).webp" alt="" />
+            <div><img src="assets/img/phone_icon 1 (1).png" alt="" class="ikonica"/></div>
             <h3>App Design</h3>
             <p>
               Duis aute irure dolor in reprehenderit in voluptate velit esse
               cillum dolore eu fugiat
             </p>
-          </div>
+          </div></div>
+          <div class="rectangles-right">
           <div class="rectangle yellow">
-            <img src="assets/img/code_icon 1 (3).webp" alt="" />
+            <div><img src="assets/img/code_icon 1 (1).png" alt="" class="ikonica"/></div>
             <h3>Web Development</h3>
             <p>
               Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -95,18 +99,21 @@
             </p>
           </div>
           <div class="rectangle green">
-            <img src="assets/img/code_icon 1 (3).webp" alt="" />
+            <div><img src="assets/img/code_icon 1 (1).png" alt="" class="ikonica"/></div>
             <h3>Web Design</h3>
             <p>
               Duis aute irure dolor in reprehenderit in voluptate velit esse
               cillum dolore eu fugiat
             </p>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="container flex maxw">
-      <div class="contactme-title"><h2>Contact me</h2></div>
+    <section class="maxw">
+      <div class="contactme-title"><h2>Contact me</h2>
+      <span class="treci"></span></div>
+      <div class="container flex">
       <div class="contact-left">
         <h4>Contact info</h4>
         <ul>
@@ -117,47 +124,48 @@
             >
           </li>
           <li><a href="tel:+38591123456">+385 91 123 456</a></li>
-          <li><a href="tel:+38591123456">+385 91 123 456</a></li>
+          <li><a href="tel:+38591123456" id="zbroj">+385 91 123 456</a></li>
           <li><a href="">www.mojadomena.com</a></li>
         </ul>
         <h4><a href="">Follow me</a></h4>
         <a href=""
           ><img
-            src="assets/img/Facebook_logo_(square).webp"
+            src=""
             alt="facebook logo"
         /></a>
         <a href=""
-          ><img src="assets/img/instagram.webp" alt="instagram logo"
+          ><img src="" alt="instagram logo"
         /></a>
         <a href=""
           ><img
-            src="assets/img/new-twitter-x-logo-twitter-icon-x-social-media-icon-free-png.webp"
+            src=""
             alt="instagram logo"
         /></a>
       </div>
       <div class="contact-right">
         <form action="/action_page.php">
-          <label for="fname">NAME</label><br />
+          <label for="fname" class="ime">NAME</label><br />
           <input
             type="text"
             placeholder="Type your name"
             id="fname"
             name="fname"
           /><br />
-          <label for="number">PHONE NUMBER</label><br />
+          <div>
+          <label for="number" class="srednji">PHONE NUMBER</label><label class="email" for="email">EMAIL</label></div>
+          <div>
           <input
             type="text"
             placeholder="Type your phone number"
             id="number"
             name="number"
-          /><br />
-          <label for="email">EMAIL</label><br />
+          />
           <input
             type="text"
             placeholder="Type your email address"
             id="email"
             name="email"
-          /><br />
+          /><br /></div>
           <label for="message">MESSAGE</label><br />
           <textarea
             name="message"
@@ -167,10 +175,11 @@
         </form>
         <button>SEND MESSAGE</button>
       </div>
+      </div>
     </section>
     <footer class="logo-footer">
       <a href="https://en.wikipedia.org/wiki/John_Doe"
-        ><img src="assets/img/J..png" alt="logo"
+        ><img src="assets/img/Frame 5.svg" alt="logo"
       /></a>
     </footer>
   </body>
