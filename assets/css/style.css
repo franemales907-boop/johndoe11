@@ -123,6 +123,7 @@ span{
     line-height: 28px; /* 175% */
     margin-left: 57px;
     align-items: center;
+    margin-bottom: 44px;
 }
 .Vvb{
     border-radius: 4px;
@@ -136,6 +137,7 @@ span{
     line-height: 35px; /* 175% */
     width: 192px;
     height: 64px;
+    margin-top: 44px;
 }
 .Cm{
     border-radius: 4px;
@@ -150,6 +152,7 @@ span{
     line-height: 35px; /* 175% */
     background-color: transparent;
     margin-left: 30px;
+    margin-top: 44px;
 }
 .about-me{
     margin-top: 120px;
