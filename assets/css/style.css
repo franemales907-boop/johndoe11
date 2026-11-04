@@ -82,7 +82,8 @@ span{
     line-height: 35px; /* 175% */
     padding: 15px 70px;
     background-color: transparent;
-    border-color: #FEB633;
+    border-radius: 4px;
+    border: 2px solid #FEB633;
 }
 .hero-right{
     margin-top: 100px;
@@ -166,7 +167,7 @@ span{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-top: 100px;
+    margin-top: 345px;
     padding: 0%;
     margin-bottom: 0%;
     margin-left: 506px;
@@ -355,16 +356,77 @@ input:placeholder-shown{
 input{
     background: #363737;
     border: none;
-height: 60px;
+    height: 60px;
+    width: 370px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    padding-left: 25px;
 }
-
-.contact-right{
-    margin-top: 54px;
+#fname{
+    width: 795px;
 }
 .email{
-    margin-left: 284px;
+    margin-left: 310px;
 }
-input{
-    gap: 30px;
-    width: 200px;
+.contact-right{
+    margin-top: 54px;
+    margin-left: 156px;
+}
+#email{
+    margin-left: 20px;
+}
+textarea{
+    background: #363737;
+    width: 770px;
+    height: 235px;
+    color: #777;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+    margin-top: 14px;
+    margin-bottom: 40px;
+    padding: 18px 25px;
+}
+.SM{
+    border-radius: 4px;
+border: 2px solid #FEB633;
+background: #FEB633;
+width: 192px;
+height: 60px;
+color: #FFF;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 15px; /* 107.143% */
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-decoration-skip-ink: auto;
+text-decoration-thickness: auto;
+text-underline-offset: auto;
+text-underline-position: from-font;
+}
+.logo-footer{
+    margin-top: 480px;
+    width: 42px;
+    height: auto;
+    margin-left: 709px;
+}
+ul li:not(.zbroj){
+    margin-top: 35px;
+}
+.contact-left img{
+    width: 50px;
+    height:auto;
+}
+button:hover{
+    cursor: pointer;
 }
