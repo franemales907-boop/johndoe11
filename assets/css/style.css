@@ -2,9 +2,13 @@
 url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 .maxw{
     max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .logo{
     margin-top: 30px;
+    height: 75px;
+    width: auto;
 }
 .container{
     margin-left: 135px;
@@ -14,7 +18,7 @@ nav{
     display: flex;
     gap: 42px;
     margin-top: 36px;
-    align-items: baseline;
+    align-items: center;
 }
 nav>a{
     color: #FFF;
@@ -93,7 +97,7 @@ span{
 .am-title{
     width: 427px;
     height: 265px;
-    background-image: url(/assets/img/about_shap_bg\ 1\ \(1\).png);
+    background-image: url(../img/about_shap_bg\ 1\ \(1\).png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -175,7 +179,7 @@ span{
     margin-top: 345px;
     padding: 0%;
     margin-bottom: 0%;
-    margin-left: 506px;
+    text-align: center;
 }
 .sr-intro{
     color: #9F9F9F;
@@ -194,8 +198,8 @@ span{
     background-color: #FEB633;
     width: 100px;
     height: 4px;
-    align-items: center;
-    margin-top: 29px;
+    text-align: center;
+    margin-top: 15px;
     margin-left: 540px;
 }
 .rectangles{
@@ -208,23 +212,19 @@ span{
 }
 .blue{
     border-radius: 10px;
-    opacity: 0.5;
-    background: #24B0FE;
+    background: rgba(36, 178, 254, 0.5);
 }
 .purple{
     border-radius: 10px;
-    opacity: 0.5;
-    background: rgba(214, 54, 208, 0.99);
+    background: rgba(214, 54, 208, 0.5);
 }
 .yellow{
     border-radius: 10px;
-    opacity: 0.5;
-    background: rgba(254, 187, 36, 0.99);
+    background: rgba(254, 187, 36, 0.5);
 }
 .green{
     border-radius: 10px;
-    opacity: 0.5;
-    background: rgba(2, 204, 71, 0.99);
+    background: rgba(2, 204, 69, 0.5);
 }
 .ikonica{
     margin-left: 80px;
@@ -269,9 +269,9 @@ h3{
     text-underline-offset: auto;
     text-underline-position: from-font;
     margin-top: 262px;
-    margin-left: 583px;
-    padding: 0%;
-    margin-bottom: 0%;
+    padding: 0;
+    margin-bottom: 0;
+    text-align: center;
 }
 .treci{
     position: absolute;
@@ -279,8 +279,7 @@ h3{
     width: 100px;
     height: 4px;
     margin-top: 15px;
-    align-items: center;
-    margin-left: 100px;
+    margin-left: 534px;
 }
 .contact-left h4{
     color: #CCC;
@@ -362,27 +361,28 @@ input{
     background: #363737;
     border: none;
     height: 60px;
-    width: 370px;
+    width: 353px;
     margin-bottom: 30px;
     margin-top: 15px;
     padding-left: 25px;
+    color: #777;
 }
 #fname{
-    width: 795px;
+    width: 770px;
 }
 .email{
-    margin-left: 310px;
+    margin-left: 300px;
 }
 .contact-right{
     margin-top: 54px;
     margin-left: 156px;
 }
 #email{
-    margin-left: 20px;
+    margin-left: 30px;
 }
 textarea{
     background: #363737;
-    width: 770px;
+    width: 745px;
     height: 235px;
     color: #777;
     font-family: Poppins;
@@ -402,34 +402,32 @@ textarea{
 }
 .SM{
     border-radius: 4px;
-border: 2px solid #FEB633;
-background: #FEB633;
-width: 192px;
-height: 60px;
-color: #FFF;
-font-family: Poppins;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: 15px; /* 107.143% */
-text-decoration-line: underline;
-text-decoration-style: solid;
-text-decoration-skip-ink: auto;
-text-decoration-thickness: auto;
-text-underline-offset: auto;
-text-underline-position: from-font;
+    border: 2px solid #FEB633;
+    background: #FEB633;
+    width: 192px;
+    height: 60px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 15px; /* 107.143% */
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
 }
 .logo-footer{
     margin-top: 480px;
-    width: 42px;
-    height: auto;
-    margin-left: 709px;
+    margin-left: 900px;
 }
 ul li:not(.zbroj){
     margin-top: 35px;
 }
 .contact-left img{
-    width: 50px;
+    width: 33px;
     height:auto;
 }
 button:hover{
