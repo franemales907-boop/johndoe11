@@ -421,7 +421,7 @@ textarea{
 }
 .logo-footer{
     margin-top: 480px;
-    margin-left: 900px;
+    text-align: center;
 }
 ul li:not(.zbroj){
     margin-top: 35px;
